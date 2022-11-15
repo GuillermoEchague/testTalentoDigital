@@ -79,6 +79,13 @@ http://localhost:3000/users/sign_in
 http://localhost:3000/users/sign_up
 ```
 
+## Deploy Heroku
+```bash
+git push heroku main
+```
+
+
+
 ## Caso de Uso
 ![](img/casos_de_uso.png)
 
