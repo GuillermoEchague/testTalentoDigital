@@ -86,7 +86,21 @@ git push heroku main
 https://testtalentodigital.herokuapp.com/
 ```
 
+## Crear - borrar variables de entorno Heroku
 
+```bash
+heroku --version
+heroku config
+heroku config:set nombre="Guillermo"
+heroku config:unset nombre
+```
+
+## Logs en heroku
+
+```bash
+heroku logs -n 100 -a
+heroku logs -n 100 --tail
+```
 
 ## Caso de Uso
 ![](img/casos_de_uso.png)
