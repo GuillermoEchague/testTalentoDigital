@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/bootstrap';
+
+.small-container{
+    width: 100%;
+    max-width: 650px;
+}
+.large-container{
+    width: 100%;
+    max-width: 960px;
+}
+.center-block{
+    
+    display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.padding{
+    padding: 10px 15px;
+}
+
+.margin-top{
+    margin-top: 1.5em;
+}
+

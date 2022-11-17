@@ -74,6 +74,7 @@ rails g serializer post
 ```bash
 rails g devise:install
 rails g devise User
+rails g devise:views
 # Pagina de inicio por devise
 http://localhost:3000/users/sign_in
 http://localhost:3000/users/sign_up
@@ -82,6 +83,7 @@ http://localhost:3000/users/sign_up
 ## Deploy Heroku
 ```bash
 git push heroku main
+https://testtalentodigital.herokuapp.com/
 ```
 
 
