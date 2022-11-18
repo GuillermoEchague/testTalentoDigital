@@ -102,9 +102,6 @@ heroku logs -n 100 -a
 heroku logs -n 100 --tail
 ```
 
-## Caso de Uso
-![](img/casos_de_uso.png)
-
 ## Entidad Relación
 ![](img/entidad-relacion.png)
 
@@ -112,6 +109,3 @@ heroku logs -n 100 --tail
 ![](img/N+1.png)
 ![](img/2N+1.png)
 ![](img/sol_N+1.png)
-
-## Gemas Testing para TDD
-![](img/test_ruby.jpg)
