@@ -53,8 +53,10 @@ rails g rspec:install
 ```
 ## Generar Modelos
 ```bash
-rails g model user email name auth_token
-rails g model post title content published:boolean user:references
+rails g model User email name auth_token
+rails g model Post title content published:boolean user:references
+
+tipos:  integer, primary_key, decimal, float, boolean, binary, string, text, date, datetime, timestamp
 # Migración para Develop
 rails db:migrate
 # Migración para Test
